@@ -14,12 +14,18 @@
 	</head>
 
 	<body>
+		<!-- react app is loaded in root -->
 	    <div id="root"></div>
-	    <noscript>You need to enable JavaScript to run this app.</noscript>
-	    <p id="insert" hidden="">Command</p>
 
+	    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+		<!-- The gesture detected is save here, as it is been used below to give output to unity -->
+	    <p id="insert" hidden="">Command</p>
+		
+
+		<!-- WebGL unity Model -->
 	    <div id="unity-container" class="unity-desktop">
-	        <canvas id="unity-canvas"></canvas>
+	        <canvas id="unity-canvas" ></canvas>
 	        <div id="unity-loading-bar">
 	            <div id="unity-logo"></div>
 	            <div id="unity-progress-bar-empty">

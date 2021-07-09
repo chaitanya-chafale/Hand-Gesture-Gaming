@@ -25,8 +25,9 @@ if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         mobileWarning.style.display = "none";
     }, 5000);
 } else {
-    canvas.style.width = "960px";
+    canvas.style.width = "780px";
     canvas.style.height = "600px";
+    // canvas.style.position = "absolute";
 }
 loadingBar.style.display = "block";
 
@@ -46,6 +47,8 @@ script.onload = () => {
 };
 document.body.appendChild(script);
 
+
+// After every 100 ms it takes the 'insert' field (which is also updated after every 100 ms by detect function in /src/App.js) and sent it to unity model
 setInterval(() => {
     if (document.getElementById("insert").innerHTML == "Right") {
         mygi.SendMessage('Character', 'MoveRight');
