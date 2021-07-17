@@ -74,7 +74,7 @@ LinkedIn - Github <br/>
 [Apoorva Mandavgane](https://www.linkedin.com/in/apoorva-ashish-mandavgane-b116a718b/) - [alpha-maverick](https://github.com/alpha-maverick) <br/>
 [Karan Jadhav](https://www.linkedin.com/in/karan-jadhav-722a71176/) - [karanjadhav12](https://github.com/karanjadhav12)
 
-Also I would like to thanks [Nicholas Renotte](https://www.linkedin.com/in/nicholasrenotte/) for helping us to complete this project through his youtube videos and its explanations.
+Also I would like to thanks [Nicholas Renotte](https://www.linkedin.com/in/nicholasrenotte/) for helping us to complete this project through his youtube videos and its explanations.<br/>
 Video: [Real Time AI GESTURE RECOGNITION with Tensorflow.JS + React.JS + Fingerpose](https://www.youtube.com/watch?v=9MTiQMxTXPE&list=PLgNJO2hghbmhqne2KldbiWfzMGJSB6mQK&index=5)<br/>
 Github: [Gesture recognition](https://github.com/nicknochnack/GestureRecognition)
 
