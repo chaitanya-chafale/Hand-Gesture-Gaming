@@ -12,7 +12,7 @@
   * Jump
   * Crouch
 * Background music is also integrated with the environment.
-* This Game can be immediately played and no installation is required, just click on the link: [Game Link](https://atharva787.github.io/Hand-Gesture-Gaming/)
+* This Game can be immediately played and no installation is required, just click on the link: [Game Link](https://chaitanya-chafale.github.io/Hand-Gesture-Gaming/)
 
 ## Installation
   1. Clone the repository
@@ -48,7 +48,7 @@
 You can play this game by clicking on Project Link.
 Note: This game can be played on Laptop/PC only.<br/>
 To watch how the Project works: [Project Demo](https://www.linkedin.com/posts/ashutosh-gupta-b9a949193_react-gesturerecognition-unity3d-ugcPost-6798659191981514752-CFtx) <br/>
-To play the Game: [Game Link](https://atharva787.github.io/Hand-Gesture-Gaming/)
+To play the Game: [Game Link](https://chaitanya-chafale.github.io/Hand-Gesture-Gaming/)
 
 
 ## Screenshots
