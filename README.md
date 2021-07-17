@@ -59,7 +59,7 @@ Hand Gesture Recognition
 
 Unity-Environment
 
-![Environment](/Users/chaitanya/Desktop/Hand-Gesture-Gaming/public/Unity Environment.gif)
+![Environment](https://github.com/chaitanya-chafale/Hand-Gesture-Gaming/blob/main/public/Unity%20Environment.gif)
 
 Unity-Character
 
