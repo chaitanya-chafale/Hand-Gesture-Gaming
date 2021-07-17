@@ -53,9 +53,9 @@ To play the Game: [Game Link](https://chaitanya-chafale.github.io/Hand-Gesture-G
 
 ## Screenshots
 
-Hand Gesture Recognition
+<!-- Hand Gesture Recognition
 
-![Hand Gesture Recognition Model](https://user-images.githubusercontent.com/57006874/120469047-81df5880-c3bf-11eb-8644-de02c66c5e06.gif)
+![Hand Gesture Recognition Model](https://user-images.githubusercontent.com/57006874/120469047-81df5880-c3bf-11eb-8644-de02c66c5e06.gif) -->
 
 Unity-Environment
 
