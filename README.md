@@ -12,7 +12,6 @@
   * Jump
   * Crouch
 * Background music is also integrated with the environment.
-* This Game can be immediately played and no installation is required, just click on the link: [Game Link](https://chaitanya-chafale.github.io/Hand-Gesture-Gaming/)
 
 ## Installation
   1. Clone the repository
