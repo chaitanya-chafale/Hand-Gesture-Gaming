@@ -47,7 +47,6 @@
 You can play this game by clicking on Project Link.
 Note: This game can be played on Laptop/PC only.<br/>
 To watch how the Project works: [Project Demo](https://www.linkedin.com/posts/ashutosh-gupta-b9a949193_react-gesturerecognition-unity3d-ugcPost-6798659191981514752-CFtx) <br/>
-To play the Game: [Game Link](https://chaitanya-chafale.github.io/Hand-Gesture-Gaming/)
 
 
 ## Screenshots
