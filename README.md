@@ -1,4 +1,6 @@
-# Hand-Gesture-Gaming
+# Hand-Gesture-Gaming 
+
+[Game-Link](https://chaitanya-chafale.github.io/Hand-Gesture-Gaming/)
 
 ## About the project
 * This Project takes hand gesture (through webcam of your laptop) as an input to move a 3D character model in a 3D environment build in Unity 3D.
@@ -44,7 +46,7 @@
 ![image](https://user-images.githubusercontent.com/57006874/120470102-cc150980-c3c0-11eb-9034-3cea8e26c10a.png)
 
 ## Demo
-You can play this game by clicking on Project Link.
+You can play this game by clicking on [Game Link](https://chaitanya-chafale.github.io/Hand-Gesture-Gaming/).<br/>
 Note: This game can be played on Laptop/PC only.<br/>
 To watch how the Project works: [Project Demo](https://www.linkedin.com/posts/ashutosh-gupta-b9a949193_react-gesturerecognition-unity3d-ugcPost-6798659191981514752-CFtx) <br/>
 
