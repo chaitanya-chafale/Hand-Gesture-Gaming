@@ -1,109 +1,62 @@
-<!-- <meta http-equiv="refresh" content="0; url=https://chaitanya-chafale.github.io/Hand-Gesture-Gaming/build/index.html"> -->
-
-<!doctype html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="/Hand-Gesture-Gaming/build/favicon.ico" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Web site created using create-react-app" />
-    <link rel="apple-touch-icon" href="/Hand-Gesture-Gaming/build/logo192.png" />
-    <link rel="manifest" href="/Hand-Gesture-Gaming/build/manifest.json" />
-    <title>Unity WebGL Player | Low Po</title>
-    <link rel="shortcut icon" href="/Hand-Gesture-Gaming/build/TemplateData/favicon.ico">
-    <link rel="stylesheet" href="/Hand-Gesture-Gaming/build/TemplateData/style.css">
-    <link href="/Hand-Gesture-Gaming/build/static/css/main.9d5b29c0.chunk.css" rel="stylesheet">
-  </head>
-  <body>
-    <div id="root"></div><noscript>You need to enable JavaScript to run this app.</noscript>
-    <p id="insert" hidden="">Command</p>
-    <div id="unity-container" class="unity-desktop"><canvas id="unity-canvas"></canvas>
-      <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
-        <div id="unity-progress-bar-empty">
-          <div id="unity-progress-bar-full"></div>
-        </div>
-      </div>
-      <div id="unity-mobile-warning">Please use your Laptop/PC. This game is not supported on mobile devices.</div>
-    </div>
-    <script type="text/javascript" src="/Hand-Gesture-Gaming/build/index.js"></script>
-    <script>
-      ! function(e) {
-        function r(r) {
-          for (var n, i, f = r[0], l = r[1], a = r[2], c = 0, s = []; c < f.length; c++) i = f[c], Object.prototype.hasOwnProperty.call(o, i) && o[i] && s.push(o[i][0]), o[i] = 0;
-          for (n in l) Object.prototype.hasOwnProperty.call(l, n) && (e[n] = l[n]);
-          for (p && p(r); s.length;) s.shift()();
-          return u.push.apply(u, a || []), t()
-        }
-
-        function t() {
-          for (var e, r = 0; r < u.length; r++) {
-            for (var t = u[r], n = !0, f = 1; f < t.length; f++) {
-              var l = t[f];
-              0 !== o[l] && (n = !1)
-            }
-            n && (u.splice(r--, 1), e = i(i.s = t[0]))
-          }
-          return e
-        }
-        var n = {},
-          o = {
-            1: 0
-          },
-          u = [];
-
-        function i(r) {
-          if (n[r]) return n[r].exports;
-          var t = n[r] = {
-            i: r,
-            l: !1,
-            exports: {}
-          };
-          return e[r].call(t.exports, t, t.exports, i), t.l = !0, t.exports
-        }
-        i.m = e, i.c = n, i.d = function(e, r, t) {
-          i.o(e, r) || Object.defineProperty(e, r, {
-            enumerable: !0,
-            get: t
-          })
-        }, i.r = function(e) {
-          "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {
-            value: "Module"
-          }), Object.defineProperty(e, "__esModule", {
-            value: !0
-          })
-        }, i.t = function(e, r) {
-          if (1 & r && (e = i(e)), 8 & r) return e;
-          if (4 & r && "object" == typeof e && e && e.__esModule) return e;
-          var t = Object.create(null);
-          if (i.r(t), Object.defineProperty(t, "default", {
-              enumerable: !0,
-              value: e
-            }), 2 & r && "string" != typeof e)
-            for (var n in e) i.d(t, n, function(r) {
-              return e[r]
-            }.bind(null, n));
-          return t
-        }, i.n = function(e) {
-          var r = e && e.__esModule ? function() {
-            return e.default
-          } : function() {
-            return e
-          };
-          return i.d(r, "a", r), r
-        }, i.o = function(e, r) {
-          return Object.prototype.hasOwnProperty.call(e, r)
-        }, i.p = "/Hand-Gesture-Gaming/";
-        var f = this.webpackJsonpundefined = this.webpackJsonpundefined || [],
-          l = f.push.bind(f);
-        f.push = r, f = f.slice();
-        for (var a = 0; a < f.length; a++) r(f[a]);
-        var p = l;
-        t()
-      }([])
-    </script>
-    <script src="/Hand-Gesture-Gaming/build/static/js/2.f3cec490.chunk.js"></script>
-    <script src="/Hand-Gesture-Gaming/build/static/js/main.6e19f4b6.chunk.js"></script>
-  </body>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gaming Project</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			background-color: #2c3e50;
+			color: #fff;
+			font-family: "Helvetica Neue", sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			margin: 0 auto;
+			max-width: 800px;
+			padding: 40px;
+			text-align: center;
+		}
+		h1 {
+			font-size: 48px;
+			font-weight: 700;
+			margin-bottom: 20px;
+			text-transform: uppercase;
+		}
+		p {
+			font-size: 24px;
+			font-weight: 300;
+			margin-bottom: 40px;
+		}
+		a.button {
+			background-color: #27ae60;
+			border: none;
+			border-radius: 5px;
+			color: #fff;
+			display: inline-block;
+			font-size: 24px;
+			margin-bottom: 40px;
+			padding: 10px 20px;
+			text-decoration: none;
+			text-transform: uppercase;
+		}
+		img {
+			display: block;
+			margin: 0 auto;
+			max-width: 100%;
+			height: auto;
+			margin-top: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Welcome to Hand-Gesture-Gaming Project</h1>
+		<p>This Project takes hand gesture (through webcam of your laptop) as an input to move a 3D character model in a 3D environment build in Unity 3D.</p>
+		<a href="https://chaitanya-chafale.github.io/Hand-Gesture-Gaming/build/index.html" target="_blank" class="button">Play Now</a>
+		<img src="https://user-images.githubusercontent.com/57006874/120470102-cc150980-c3c0-11eb-9034-3cea8e26c10a.png" alt="Game Screenshot">
+	</div>
+</body>
 </html>
